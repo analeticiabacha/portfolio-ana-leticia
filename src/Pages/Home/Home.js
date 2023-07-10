@@ -15,7 +15,6 @@ const Home = () => {
                 </DivText>
                 <DivImg>
                     <ProfileImage src={ProfileOne}/>
-
                 </DivImg>
             </Container>
         </>

@@ -7,10 +7,13 @@ export default createGlobalStyle`
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-        background-color: #ECE4FD;
         font-family: 'League Spartan', sans-serif;
         
     }
+    body{
+        background-color: #ECE4FD;
+    }
+    
     
 
 `;
