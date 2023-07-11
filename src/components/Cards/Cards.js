@@ -1,5 +1,5 @@
 import React from "react";
-import { ContainerCard, Title, DivFront, DivBack } from "./Styles"
+import { ContainerCard, Title, DivFront, DivBack, Button } from "./Styles"
 
 const Cards = ({children}) => {
 
@@ -8,10 +8,10 @@ const Cards = ({children}) => {
             
             <DivFront>
                 <Title>{children}</Title>
-                Front
             </DivFront>
             <DivBack>
-                Back
+                
+                <Button>SAIBA MAIS</Button>
             </DivBack>
         </ContainerCard>
     )
