@@ -1,13 +1,15 @@
 import React from "react";
-import { Container, Button } from "./Styles"
+import { Container, Button, Navbar } from "./Styles"
 
 const Header = () => {
 
     return(
         <Container>
-            <Button>SOBRE MIM</Button>
-            <Button>CONTATOS</Button>
-            <Button>PROJETOS</Button>
+            <Navbar>
+                <Button href="#sobre-mim">SOBRE MIM</Button>
+                <Button href="#projetos">PROJETOS</Button>
+                <Button href="#contatos">CONTATOS</Button>
+            </Navbar>
         </Container>
     )
 

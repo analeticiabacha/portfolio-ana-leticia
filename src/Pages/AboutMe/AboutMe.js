@@ -15,12 +15,13 @@ import {
   ContainerLeft,
   ContainerRight,
   ProfileImageTwo,
-  DivHat
+  DivHat,
+  DivImg
 } from "./Styles";
 
 const AboutMe = () => {
   return (
-    <Container>
+    <Container id="sobre-mim">
       <DivAboutPurple>
         <DivTitle>
           <H1 color="#FFFFFF">OLÁ, EU SOU A </H1>{" "}
@@ -66,7 +67,9 @@ const AboutMe = () => {
           <H3 color="#2F0786" bold>EXPLORE MEU PORTFÓLIO E CONHEÇA MELHOR MEU TRABALHO.</H3>
         </ContainerLeft>
         <ContainerRight>
-          <ProfileImageTwo src={ProfileImage}/>
+          <DivImg>
+            <ProfileImageTwo src={ProfileImage}/>
+          </DivImg>
         </ContainerRight>
       </DivInfos>
     </Container>

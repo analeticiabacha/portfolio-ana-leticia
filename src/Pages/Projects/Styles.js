@@ -5,7 +5,7 @@ export const Container = styled.div`
   flex-wrap: wrap;
   justify-content: center; /* Alinha as divs horizontalmente */
   align-items: center; /* Alinha as divs verticalmente */
-  height: 100vh;
+  min-height: 100vh;
   gap: 20px;
-  perspective: 1000px;
+  margin: 150px 0;
 `;
