@@ -1,17 +1,21 @@
 import React from "react";
-import { ContainerCard, Title, DivFront, DivBack, Button } from "./Styles"
+import { ContainerCard, Title, Info, DivFront, DivBack, Button, DivButton, ImgProject } from "./Styles"
 
-const Cards = ({children}) => {
+const Cards = ({project}) => {
 
     return(
         <ContainerCard>
             
             <DivFront>
-                <Title>{children}</Title>
+                <ImgProject src={project.img}/>
             </DivFront>
             <DivBack>
-                
-                <Button>SAIBA MAIS</Button>
+                <Title>{project.name}</Title>
+                <Info>{project.description}</Info>
+                <DivButton>
+                    <Button href={project.website} target="_blank">WEBSITE</Button>
+                    <Button href={project.repository} target="_blank">REPOSITÓRIO</Button>
+                </DivButton>
             </DivBack>
         </ContainerCard>
     )
