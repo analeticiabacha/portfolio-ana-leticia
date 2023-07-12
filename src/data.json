@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Heaven Burger",
+        "description": "App desenvolvida para o gerenciamento de uma hamburgueria",
+        "website": "https://heaven-burger-analeticiabacha.vercel.app/",
+        "color": "#E99331",
+        "img": "https://github.com/analeticiabacha/heaven-burger/assets/30864314/de5aa9b4-67a9-4078-ba2b-b2c383d2e3c8", 
+        "repository": "https://github.com/analeticiabacha/heaven-burger/tree/main"
+    },
+    {
+        "name": "Code Girls",
+        "description": "Plataforma desenvolvida é uma rede social responsiva destinada a unir mulheres na tecnologias",
+        "website": "https://code-girlsio.web.app/",
+        "color": "#C53F3F",
+        "img": "https://github.com/analeticiabacha/SAP009-social-network/assets/30864314/655b1a18-1eaf-498e-8c47-0b29fc7a7a5b", 
+        "repository": "https://github.com/analeticiabacha/SAP009-social-network"
+    },
+    {
+        "name": "Cifra de César",
+        "description": "Codificador de mensagem online.",
+        "website": "https://analeticiabacha.github.io/SAP009-cipher/",
+        "color": "#FFE261",
+        "img": "https://github.com/analeticiabacha/SAP009-cipher/assets/30864314/b3893406-ef77-4093-9138-2fc0967ea7fd", 
+        "repository": "https://github.com/analeticiabacha/SAP009-cipher/tree/main"
+    }, 
+    {
+        "name": "Mardown Links",
+        "description": "Biblioteca instalável usando NodeJs que ler arquivos md e encontra links fazendo suas devidas validações",
+        "website": "https://www.npmjs.com/package/md-links-analeticia",
+        "color": "#0FB165",
+        "img": "https://github.com/analeticiabacha/SAP009-md-links/assets/30864314/eee5bf0f-a6c7-42fe-bc84-72c650cd84b1", 
+        "repository": "https://github.com/analeticiabacha/SAP009-md-links"
+    },
+    {
+        "name": "League of Legends",
+        "description": "Site criado para os jogadores de League of Legends acessarem informações dos campeões do jogo.",
+        "website": "https://analeticiabacha.github.io/SAP009-data-lovers/",
+        "color": "#0FB165",
+        "img": "https://github.com/analeticiabacha/SAP009-data-lovers/assets/30864314/4d9489ac-e798-42ac-959d-ff469c77d70e", 
+        "repository": "https://github.com/analeticiabacha/SAP009-data-lovers"
+    },
+    {
+        "name": "Movie Challenge",
+        "description": "Plataforma desenvolvida para explorar e descobrir informações sobre filmes",
+        "website": "https://movie-challenge-analeticiabacha.vercel.app/",
+        "color": "#850DB9",
+        "img": "https://github.com/analeticiabacha/heaven-burger/assets/30864314/75470c40-f25e-48f2-951e-541df52d9fd7", 
+        "repository": "https://github.com/analeticiabacha/movie-challenge"
+    }
+]
