@@ -4,6 +4,8 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 50px;
+  min-height: 100vh;
 `;
 
 export const DivAboutPurple = styled.div`
@@ -53,7 +55,7 @@ export const DivInfos = styled.div`
   display: flex;
   background-color: #ece4fd;
   width: 100%;
-  height: 100vh;
+
 `;
 
 export const ContainerLeft = styled.div`
@@ -70,6 +72,10 @@ export const ContainerLeft = styled.div`
 export const ContainerRight = styled.div`
   width: 40%;
   margin-top: 20px;
+`;
+
+export const DivImg = styled.div`
+  width: 90%;
 `;
 
 export const ProfileImageTwo = styled.img`

@@ -9,9 +9,10 @@ export const Container = styled.div`
     height: 50px;
 `;
 
-export const Button = styled.button`
-    width: 132px;
-    height: 47px;
+export const Button = styled.a`
+    
+    padding: 10px 20px;
+    text-decoration: none;
     margin-right:20px;
     background-color: #ECE4FD;
     border-radius: 20px;
@@ -20,5 +21,10 @@ export const Button = styled.button`
     color: #7140DB;
     font-weight: bold;
     font-size: 12px;
+    
+`;
+
+export const Navbar = styled.nav`
+    
     
 `;

@@ -6,9 +6,7 @@ export const ContainerCard = styled.div`
     flex-direction: column;
     width:400px;
     height:290px;
-    /* background-color: #2F0786; */
     border: 8px solid #2F0786;
-    /*flip dos cards*/
     position: relative;
     border-radius: 20px;
 `;
