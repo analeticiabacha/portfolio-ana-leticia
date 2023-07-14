@@ -18,8 +18,6 @@ const Contacts = () => {
                     <Icons src={GithubIcon}/>
                 </Click>
             </DivIcons>
-            
-            
         </Container>
     )
 }
