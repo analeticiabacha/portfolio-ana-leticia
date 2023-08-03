@@ -9,13 +9,22 @@
         "id": "1"
     },
     {
+        "name": "Desafio Loggi",
+        "description": "Desafio realizado pelo empresa Loggi, para o Talent Fest 2023 da Laboratoria.",
+        "website": "https://desafio-loggi-analeticia.vercel.app/",
+        "color": "#C53F3F",
+        "img": "https://github.com/analeticiabacha/portfolio-ana-leticia/assets/30864314/6867df4a-5250-4bf1-98e2-696537af1a3c", 
+        "repository": "https://github.com/analeticiabacha/desafio-loggi-analeticia",
+        "id": "2"
+    },
+    {
         "name": "Code Girls",
         "description": "Plataforma desenvolvida é uma rede social responsiva destinada a unir mulheres na tecnologias",
         "website": "https://code-girlsio.web.app/",
         "color": "#C53F3F",
         "img": "https://github.com/analeticiabacha/SAP009-social-network/assets/30864314/655b1a18-1eaf-498e-8c47-0b29fc7a7a5b", 
         "repository": "https://github.com/analeticiabacha/SAP009-social-network",
-        "id": "2"
+        "id": "3"
     },
     {
         "name": "Cifra de César",
@@ -24,7 +33,7 @@
         "color": "#FFE261",
         "img": "https://github.com/analeticiabacha/SAP009-cipher/assets/30864314/b3893406-ef77-4093-9138-2fc0967ea7fd", 
         "repository": "https://github.com/analeticiabacha/SAP009-cipher/tree/main",
-        "id": "3"
+        "id": "4"
     }, 
     {
         "name": "Mardown Links",
@@ -33,7 +42,7 @@
         "color": "#0FB165",
         "img": "https://github.com/analeticiabacha/SAP009-md-links/assets/30864314/eee5bf0f-a6c7-42fe-bc84-72c650cd84b1", 
         "repository": "https://github.com/analeticiabacha/SAP009-md-links",
-        "id": "4"
+        "id": "5"
     },
     {
         "name": "League of Legends",
@@ -42,7 +51,7 @@
         "color": "#0FB165",
         "img": "https://github.com/analeticiabacha/SAP009-data-lovers/assets/30864314/4d9489ac-e798-42ac-959d-ff469c77d70e", 
         "repository": "https://github.com/analeticiabacha/SAP009-data-lovers",
-        "id": "5"
+        "id": "6"
     },
     {
         "name": "Movie Challenge",
@@ -51,6 +60,6 @@
         "color": "#850DB9",
         "img": "https://github.com/analeticiabacha/heaven-burger/assets/30864314/75470c40-f25e-48f2-951e-541df52d9fd7", 
         "repository": "https://github.com/analeticiabacha/movie-challenge",
-        "id": "6"
+        "id": "7"
     }
 ]
