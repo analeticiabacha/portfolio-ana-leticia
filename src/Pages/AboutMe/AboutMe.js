@@ -1,7 +1,9 @@
 import React from "react";
-import ProfileImage from "../../Img/img2.png";
+
 import HatIcon from "../../Img/chapeu.png";
 import ImgIcons from "../../Img/icons.png";
+import ProfileImage from "../../Img/img2.png";
+
 import {
   H1,
   H3,
@@ -16,29 +18,26 @@ import {
   ContainerRight,
   ProfileImageTwo,
   DivHat,
-  DivImg
+  DivImg, 
+  DivPortifolio
 } from "./Styles";
 
 const AboutMe = () => {
   return (
+    <>
     <Container id="sobre-mim">
       <DivAboutPurple>
         <DivTitle>
-          <H1 color="#FFFFFF">OLÁ, EU SOU A </H1>{" "}
-          <H1 color="#2F0786"> ANA LETICIA</H1>
+          <H1 color="#FFFFFF">OLÁ, EU SOU A&nbsp;</H1>
+          <H1 color="#2F0786">ANA LETICIA</H1>
           <H1 color="#FFFFFF">!</H1>
         </DivTitle>
         <DivAboutText>
           <H3 color="#DCCCFF">
-            SOU UMA PROFISSIONAL APAIXONADA PELA INTERSEÇÃO ENTRE ENGENHARIA E
-            DESENVOLVIMENTO WEB. COM UMA SÓLIDA FORMAÇÃO EM ENGENHARIA BIOMÉDICA
-            E EXPERIÊNCIA PRÉVIA EM UMA EMPRESA DE SOFTWARE PARA HOSPITAIS,
-            TENHO ADQUIRIDO HABILIDADES VALIOSAS NA COMPREENSÃO DAS NECESSIDADES
-            DOS CLIENTES E NA SUA TRADUÇÃO EM SOLUÇÕES EFICAZES.
+            Sou uma profissional apaixonada pela interseção entre engenharia e desenvolvimento web. Com uma sólida formação em engenharia biomédica e experiência prévia em uma empresa de software para hospitais, tenho adquirido habilidades valiosas na compreensão das necessidades dos clientes e na sua tradução em soluções eficazes.
           </H3>
           <H3 color="#2F0786">
-            ESTOU ANSIOSA PARA FAZER PARTE DE PROJETOS INOVADORES E COLABORAR EM
-            CRIAR SOLUÇÕES QUE IMPACTAM POSITIVAMENTE A VIDA DAS PESSOAS.
+           Estou ansiosa para fazer parte de projetos inovadores e colaborar em criar soluções que impactam positivamente a vida das pessoas.
           </H3>
         </DivAboutText>
       </DivAboutPurple>
@@ -64,7 +63,7 @@ const AboutMe = () => {
 
           <H3 color="#7140DB" bold>TECNOLOGIAS</H3>
           <Icons src={ImgIcons}/>
-          <H3 color="#2F0786" bold>EXPLORE MEU PORTFÓLIO E CONHEÇA MELHOR MEU TRABALHO.</H3>
+        
         </ContainerLeft>
         <ContainerRight>
           <DivImg>
@@ -72,7 +71,14 @@ const AboutMe = () => {
           </DivImg>
         </ContainerRight>
       </DivInfos>
+
     </Container>
+    <DivPortifolio>
+      <H3 color="#2F0786" bold>EXPLORE MEU PORTFÓLIO E CONHEÇA MELHOR MEU TRABALHO.</H3>
+
+    </DivPortifolio>
+    </>
+
   );
 };
 

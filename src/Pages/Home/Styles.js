@@ -1,19 +1,30 @@
 import styled from "styled-components";
 
+import { devices } from "../../style/device";
+
 export const Container = styled.div`
     display: flex;
     align-items: center;
-    min-height: calc(100vh - 50px);
+    margin-bottom: 3rem;
     flex-direction: column;
     gap: 50px;
+
+    @media${devices.tablet}{
+        min-height: calc(100vh - 50px);
+        margin-bottom: 0;
+    }
 `;
 
 export const DivText = styled.div`
-    margin-top: 70px;
     display: flex;
     flex-direction: column;
     text-align: center;
     gap: 10px;
+    margin-top: 3rem
+
+    @media${devices.tablet}{
+        margin-top:70px;
+    }
 `;
 
 export const H2 = styled.p`

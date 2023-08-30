@@ -1,12 +1,19 @@
 import styled from "styled-components";
 
+import { devices } from "../../style/device";
+
 export const Container = styled.div`
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: center;
     margin-top: 20px;
     width: 100vw;
+    margin-bottom: 3rem;
     height: 50px;
+
+    @media${devices.tablet}{
+        justify-content:  flex-end;
+      }
 `;
 
 export const Button = styled.a`
